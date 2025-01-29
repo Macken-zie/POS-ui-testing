@@ -1,0 +1,34 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Styling for the Start Button */
+  .start-btn {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .start-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Focus effect when the button is clicked */
+  .start-btn:focus {
+    outline: none;
+  }
+  
